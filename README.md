@@ -12,13 +12,13 @@ A mathematical Go library with extended basic functions, statistic functions, lo
 
 ## ✨ Main functionalities
 
-- ➕ Arithmetic: suma, resta, multiplicación, división, potencias, raíces
-- 🧮 Numeric logic: factorial, primos, MCD, MCM
-- 📊 Statistics: media, mediana, moda, desviación estándar
-- 📐 Trigonometry: seno, coseno, tangente
-- 🔢 Extremes: valor mínimo y máximo con soporte para NaN e infinitos
-- 🧠 Logarithms: naturales, base 2, base 10, Log1p y Logb
-- ⚙️ Auxiliar functions: valor absoluto, control de errores
+- ➕ Arithmetic: addition, subtraction, multiplication, division, power, square root
+- 🧮 Numeric logic: factorial, prime checking, LCM, MCD
+- 📊 Statistics: average, median, mode, standard deviation
+- 📐 Trigonometry: sine, cosine, tangeant
+- 🔢 Extremes: minimum and maximum values with NaN and ±Inf support
+- 🧠 Logarithms: naturals, base 2, base 10, custom base, Log1p and Logb
+- ⚙️ Auxiliar functions: absolute value, error control
 
 And I'm open for suggestions if any important functions are missing!
 

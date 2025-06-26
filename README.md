@@ -1,4 +1,4 @@
-![Go Version](https://img.shields.io/badge/go-1.22-blue)
+![Go Version](https://img.shields.io/badge/go-1.24.3-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![First Project](https://img.shields.io/badge/my%20first-project-%23f47fff)
 

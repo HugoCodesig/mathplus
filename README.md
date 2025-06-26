@@ -6,6 +6,8 @@
 
 # mathplus
 
+![mathplus banner](.github/assets/banner.png)
+
 A mathematical Go library with extended basic functions, statistic functions, logic functions and trigonometric functions. Ideal for personal use or as a foundation for projects that require calcularions beyond standard `math`.
 
 ## ✨ Main functionalities

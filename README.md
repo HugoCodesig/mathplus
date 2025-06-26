@@ -1,4 +1,6 @@
-![First Project](https://img.shields.io/badge/built%20with-coffee%20and%20curiosity-%23c49cff?style=flat&logo=go)
+![Go Version](https://img.shields.io/badge/go-1.22-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![First Project](https://img.shields.io/badge/my%20first-project-%23f47fff)
 
 > 💡 Started as a side exercise… now it’s my first open-source package!
 

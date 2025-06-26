@@ -1,3 +1,7 @@
+![First Project](https://img.shields.io/badge/built%20with-coffee%20and%20curiosity-%23c49cff?style=flat&logo=go)
+
+> 💡 Started as a side exercise… now it’s my first open-source package!
+
 # mathplus
 
 A mathematical Go library with extended basic functions, statistic functions, logic functions and trigonometric functions. Ideal for personal use or as a foundation for projects that require calcularions beyond standard `math`.

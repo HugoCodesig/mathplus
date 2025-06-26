@@ -62,3 +62,59 @@ func main() {
 `trigonometry.go` – Trigonometric functions
 
 `utils.go` – Auxiliar functions
+
+## Useful commands
+
+### 📦 Installation and execution
+
+```bash
+git clone https://github.com/HugoCodesig/mathplus.git
+cd mathplus
+make build
+./mathplus add -p 2 3
+```
+
+### 🧪 Tests
+
+```bash
+make test        # Execute all tests
+make test-cli    # Execute CLI tests + temporary binary file (for testing)
+```
+
+### ▶️ CLI
+
+```bash
+./mathplus <function> -p <numbers>
+
+# Examples
+./mathplus add -p 5 3         # 8
+./mathplus div -p 100 2 5     # 10
+```
+
+### 📚 Supported Operations
+
+| **Function**       | **Description**                                    | **CLI Example**                               |
+|--------------------|----------------------------------------------------|-----------------------------------------------|
+| `add`              | Sum all numbers                                    | `mathplus add -p 4 5 6` → `15`                |
+| `sub`              | Subtract numbers left to right                     | `mathplus sub -p 10 2 3` → `5`                |
+| `mul`              | Multiply all numbers                               | `mathplus mul -p 2 3 4` → `24`                |
+| `div`              | Divide numbers left to right                       | `mathplus div -p 100 2 5` → `10`              |
+| `pow`              | Raise base to exponent                             | `mathplus pow -p 2 3` → `8`                   |
+| `sqrt`             | Square root (Newton's method)                      | `mathplus sqrt -p 25` → `5`                   |
+| `average`          | Arithmetic mean                                    | `mathplus average -p 5 10 15` → `10`          |
+| `median`           | Median value                                       | `mathplus median -p 1 3 2` → `2`              |
+| `mode`             | Most frequent number(s)                            | `mathplus mode -p 2 2 3 4` → `[2]`            |
+| `stddev`           | Sample standard deviation                          | `mathplus stddev -p 2 4 6` → `2`              |
+| `factorial`        | Factorial (recursive, integers only)               | `mathplus factorial -p 5` → `120`             |
+| `isprime`          | Check if integer is prime                          | `mathplus isprime -p 7` → `true`              |
+| `gcd`              | Greatest common divisor                            | `mathplus gcd -p 12 18` → `6`                 |
+| `lcm`              | Least common multiple                              | `mathplus lcm -p 4 6` → `12`                  |
+| `max`              | Maximum in list                                    | `mathplus max -p 3 7 2` → `7`                 |
+| `min`              | Minimum in list                                    | `mathplus min -p 3 7 2` → `2`                 |
+| `log`              | Logarithm (base 10, 2, or natural)                 | `mathplus log -p 10` → `2.3` _(base 10)_      |
+| `logspec`          | Special log forms: `log1p`, `logb`                 | `mathplus logspec -p 1p 0.5` → `~0.405`       |
+| `sin` / `cos` / `tan` | Trigonometric functions (input in radians)      | `mathplus sin -p 1.5708` → `1`                |
+
+## Info
+This took around three weeks to make, with nonstop documentation checking and AI help. And finally, after those painful weeks, I finally completed it!
+Special thanks to the Golang documentation and Copilot AI (not the best but oh well). Feel free to send feedback. :D

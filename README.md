@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![First Project](https://img.shields.io/badge/my%20first-project-%23f47fff)
 
-> 💡 Started as a side exercise… now it’s my first open-source package!
+💡 Started as a side exercise… now it’s my first open-source package!
 > "Yes, I build things. And I build them well."
 
 # mathplus

@@ -1,7 +1,7 @@
 package mathplus
 
 import (
-	mp "mathplus/internal/math"
+	mp "mathplus/pkg"
 	"testing"
 )
 

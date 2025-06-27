@@ -1,3 +1,3 @@
-module github.com/HugoCodesig/mathplus
+module mathplus
 
 go 1.24.3

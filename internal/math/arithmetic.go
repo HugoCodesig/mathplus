@@ -16,8 +16,11 @@ func Add(nums ...float64) float64 {
 
 // Sub returns the cumulative subtraction starting from 0.
 func Sub(nums ...float64) float64 {
-	var sub float64
-	for _, val := range nums {
+	if len(nums) == 0 {
+		return 0
+	}
+	sub := nums[0]
+	for _, val := range nums[1:] {
 		sub -= val
 	}
 	return sub

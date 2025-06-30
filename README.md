@@ -25,7 +25,7 @@ And I'm open for suggestions if any important functions are missing!
 
 ## 🛠️ Installation
 
-`go get github.com/HugoCodesig/mathplus`
+`go install github.com/HugoCodesig/mathplus@latest`
 
 ## 🧪 Use examples
 
